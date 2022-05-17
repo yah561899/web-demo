@@ -107,7 +107,7 @@ export default class Header extends Component {
                 <div className="dropdown">
                   <button className="btn text" type="button" data-bs-toggle="dropdown">
                     Case Studies
-                    <i className="fa-solid fa-square-caret-down ps-2"></i>
+                    <i className="fa-solid fa-square-caret-down "></i>
                   </button>
                   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a className="dropdown-item text" href="#">Chinese</a></li>
@@ -121,6 +121,43 @@ export default class Header extends Component {
             </ul>
           </div>
         </div>
+
+        <div className="row pt-5">
+      <div className="col-lg-7">
+        <p>
+          <h1 className="text">ISO<small className="ps-2">SUSTAINABILITY</small></h1>
+          <h2>COMPLIANCE,REPORTING &amp CERTIIFICATION</h2>
+          <h3>SOLUTIONS FOR SMEs</h3>
+        </p>
+          <div className="row mt-3 align-items-end">
+              <div className="col-lg-6">
+                  <p>Get tailor-made solutions to manage</p>
+                  <p>tour carbon footprint impact to start</p>
+                  <p>meering sustainability standards NOW!</p>
+              </div>
+              <div className="col-lg-1">
+                <div className="vr"></div>
+              </div>
+              <div className="col-lg-3">
+                <button type="button" className="btn btn-light mb-3 btn1">
+                  <i className="fa-solid fa-angles-right"></i>
+                  LEARN MORE 
+                </button>
+                <br/>
+                <button type="button" className="btn btn-light btn2">
+                  <i className="fa-solid fa-angles-right"></i>
+                  CONTACT US 
+                </button>
+              </div>
+          </div>
+      </div>
+      <div className="col-lg-1 align-self-end">
+        <img src="./penguin.png" className="img-fluid img3"/>
+      </div>
+      <div className="col-lg-4 ">
+          <img src="./ISO.png" className="img-fluid"/>
+      </div>
+    </div>
       </div>
     )
   }

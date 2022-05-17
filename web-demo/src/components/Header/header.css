@@ -16,3 +16,39 @@
 .vr{
     height:80px;
 }
+small{
+    color:rgb(103, 177, 29);
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    color: rgb(21, 115, 223);
+    font-family: 'Alatsi', sans-serif;
+}
+h3{
+    color: rgb(21, 115, 223);
+    font-weight: 1000;
+}
+p{
+    line-height: 5px;
+    font-size: 20px;
+    font-family: 'Alatsi', sans-serif;
+}
+.btn1{
+    background-color:rgb(53, 137, 233);
+    font-family: 'Alatsi', sans-serif;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+.btn2{
+    background-color:rgb(103, 177, 29);
+    font-family: 'Alatsi', sans-serif;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+.img3{
+    height: 100px;
+}
