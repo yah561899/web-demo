@@ -70,17 +70,14 @@ export default class Header extends Component {
             </ul>
           </div>
         </div>
-        <div className="row al pt-5 align-items-end">
-          <div className="col-lg-3">
+        <div className="row pt-5 align-items-end">
+          <div className="col-lg-4 ">
             <img src={img1} className="img-fluid" />
           </div>
-          <div className="col-lg-1">
-            <div className="vr"></div>
+          <div className="col-lg-2">
+            <img src={img2} className="img" />
           </div>
-          <div className="col-lg-1 align-self-start">
-            <img src={img2} className=" img-fluid" />
-          </div>
-          <div className="col-lg-5 offset-lg-2">
+          <div className="col-lg-5 offset-lg-1">
             <ul className="nav justify-content-between ">
               <li className="nav-item">
                 <div className="dropdown">
