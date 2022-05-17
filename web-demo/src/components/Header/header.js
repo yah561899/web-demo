@@ -59,7 +59,7 @@ export default class Header extends Component {
                 <div className="dropdown">
                   <button className="btn btn-light text" type="button" data-bs-toggle="dropdown">
                     English
-                    <i className="fa-solid fa-square-caret-down"></i>
+                    <i className="fa-solid fa-square-caret-down ps-2"></i>
                   </button>
                   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a className="dropdown-item text" href="#">Chinese</a></li>
@@ -86,7 +86,7 @@ export default class Header extends Component {
                 <div className="dropdown">
                   <button className="btn text" type="button" data-bs-toggle="dropdown">
                     Solutions
-                    <i className="fa-solid fa-square-caret-down"></i>
+                    <i className="fa-solid fa-square-caret-down ps-2"></i>
                   </button>
                   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a className="dropdown-item text" href="#">Chinese</a></li>
@@ -98,7 +98,7 @@ export default class Header extends Component {
                 <div className="dropdown">
                   <button className="btn text" type="button" data-bs-toggle="dropdown">
                     Resources
-                    <i className="fa-solid fa-square-caret-down"></i>
+                    <i className="fa-solid fa-square-caret-down ps-2"></i>
                   </button>
                   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a className="dropdown-item text" href="#">Chinese</a></li>
@@ -110,7 +110,7 @@ export default class Header extends Component {
                 <div className="dropdown">
                   <button className="btn text" type="button" data-bs-toggle="dropdown">
                     Case Studies
-                    <i className="fa-solid fa-square-caret-down"></i>
+                    <i className="fa-solid fa-square-caret-down ps-2"></i>
                   </button>
                   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a className="dropdown-item text" href="#">Chinese</a></li>
