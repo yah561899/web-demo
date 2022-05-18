@@ -1,10 +1,11 @@
 import React from 'react'
+import DIF from './images/DIF-WM-LOGO.png'
 
 const Footer = () => {
   return (
     <div>
       {/* <!-- Remove the container if you want to extend the Footer to full width. --> */}
-      <div className="container my-5">
+      <div className="container-fluid">
 
         {/* <!-- Footer --> */}
         <footer
@@ -17,7 +18,8 @@ const Footer = () => {
           >
           {/* <!-- Left --> */}
           <div className="me-5">
-            <span>Get connected with us on social networks:</span>
+            {/* <span>Get connected with us on social networks:</span> */}
+            <img src={DIF} style={{height:"100px"}} />
           </div>
           {/* <!-- Left --> */}
 
@@ -92,7 +94,7 @@ const Footer = () => {
               {/* <!-- Grid column --> */}
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 {/* <!-- Links --> */}
-                <h6 className="text-uppercase fw-bold">Useful links</h6>
+                <h6 className="text-uppercase fw-bold">Innovation</h6>
                 <hr
                   className="mb-4 mt-0 d-inline-block mx-auto"
                   style={{width: "60px", backgroundColor: "#7c4dff", height: "2px"}}
@@ -115,13 +117,14 @@ const Footer = () => {
               {/* <!-- Grid column --> */}
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 {/* <!-- Links --> */}
-                <h6 className="text-uppercase fw-bold">Contact</h6>
+                <h6 className="text-uppercase fw-bold">Resources</h6>
                 <hr
                   className="mb-4 mt-0 d-inline-block mx-auto"
                   style={{width: "60px", backgroundColor: "#7c4dff", height: "2px"}}
                 />
               </div>
               {/* <!-- Grid column --> */}
+              
             </div>
             {/* <!-- Grid row --> */}
           </div>

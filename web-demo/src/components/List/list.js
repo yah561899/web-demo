@@ -1,10 +1,12 @@
 import React from 'react'
-import Archibus from './Item/Archibus'
-import ISO from './Item/ISO'
-import Step from './Item/step'
+import Archibus from './Item/Archibus/Archibus'
+import ISO from './Item/ISO/ISO'
+import Step from './Item/step/step'
 
 const List = () => {
   return (
+ 
+
     <div>
       <hr/>
       <Step/>
@@ -14,6 +16,7 @@ const List = () => {
       <Archibus/>
       <hr/>
     </div>
+
   )
 }
 
