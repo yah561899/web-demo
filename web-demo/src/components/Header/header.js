@@ -130,9 +130,9 @@ export default class Header extends Component {
 
     <div className="row pt-5">
       <div className="col-lg-7">
-          <p><h1 className="h11 text">ISO<small className="ps-2">SUSTAINABILITY</small></h1></p>
-          <p><h2 className='h22 '>COMPLIANCE,REPORTING & CERTIIFICATION</h2></p>
-          <p><h3 className='h33 '>SOLUTIONS FOR SMEs</h3></p>
+          <h1 className="h11 text">ISO<small className="ps-2">SUSTAINABILITY</small></h1>
+          <h2 className='h22 '>COMPLIANCE,REPORTING & CERTIIFICATION</h2>
+          <h3 className='h33 '>SOLUTIONS FOR SMEs</h3>
           <div className="row mt-3">
               <div className="col-lg-7">
                   <p className='header-p pt-5'>Get tailor-made solutions to manage</p>

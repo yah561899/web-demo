@@ -36,7 +36,7 @@ const ISO = () => {
               <hr style={{ border: "2px solid #876854" }} />
               <p><strong style={{ color: "#876854" }}>GREENHOUSE GASES</strong></p>
               <p><strong>EMMISIONS AND REMOVALS</strong></p>
-              <p><a className='iso-a' href="">Learn More <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+              <p><a className='iso-a' href="">Learn More <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
             </div>
           </div>
           <br />
@@ -49,7 +49,7 @@ const ISO = () => {
               <hr style={{ border: "2px solid #008080" }} />
               <p><strong style={{ color: "	#008080" }}>WATER FOOTPRINT</strong></p>
               <p><strong>MANAGEMENT AND GUIDELINES</strong></p>
-              <p ><a className='iso-a' href="">Learn More <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+              <p ><a className='iso-a' href="">Learn More <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
             </div>
           </div>
           <br />
@@ -62,7 +62,7 @@ const ISO = () => {
               <hr style={{ border: "2px solid #435936" }} />
               <p><strong style={{ color: "#435936" }}>CARBON FOOTPRINT</strong></p>
               <p><strong>OF PRODUCTS QUANTIFICATION</strong><br /></p>
-              <p ><a className='iso-a' href="">Learn More <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+              <p ><a className='iso-a' href="">Learn More <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
             </div>
           </div>
         </div>

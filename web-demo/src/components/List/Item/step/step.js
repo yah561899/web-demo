@@ -11,7 +11,7 @@ export default class Step extends Component {
       <div className="container">
         <div className="row justify-content-center py-5">
           <div className="col-lg-11 ps-5">
-            <p><h1 className='title-h1'><span className="title1">Roadmap your CSR to ISO </span><span className="title2">Sustainability </span><span className="title3">Cerification</span></h1></p>
+            <h1 className='title-h1'><span className="title1">Roadmap your CSR to ISO </span><span className="title2">Sustainability </span><span className="title3">Cerification</span></h1>
           </div>
           <div className='row align-items-center'>
             <div className="col-lg-12">
