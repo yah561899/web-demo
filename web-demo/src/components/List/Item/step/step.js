@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import './step.css'
-import ISO from './img/ISO.png'
-import Audit from './img/audit.png'
-import Certified from './img/certified.png'
-import Folder from './img/folder.png'
+import Step1 from './Step1/Step1'
+import Step2 from './Step2/Step2'
+import Step3 from './Step3/Step3'
+import Step4 from './Step4/Step4'
+
 export default class Step extends Component {
   render() {
     return (
@@ -19,90 +20,10 @@ export default class Step extends Component {
             </div>
           </div>
           <div className="row py-5">
-            <div className="col-lg-3 ">
-              <div className="card">
-                <img src={Folder} className="img" alt="..." />
-                <div className="card-body">
-                  <h5 className='card-titleh5'>Step 1</h5>
-                  <h3 className='card-titleh3'>Collect</h3>
-                  <br />
-                  <p className='card-text'>Quickly calculae</p>
-                  <p className='card-text'>tour corporate</p>
-                  <p className='card-text'>emissions,easily</p>
-                  <p className='card-text'>upload or plug in</p>
-                  <p className='card-text'>data from all tour</p>
-                  <p className='card-text'>emmision sources</p>
-                  <br />
-                  {/* 帶擴充 */}
-                  <a href="#" className="btn  card-btn">
-                  <i className="fa-solid fa-angles-right"></i>
-                  LEARN MORE</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="card">
-                <img src={Audit} className="card-img-top img" alt="..." />
-                <div className="card-body">
-                  <h5 className='card-titleh5'>Step 2</h5>
-                  <h3 className='card-titleh3'>Analyze</h3>
-                  <br />
-                  <p className='card-text'>Easily compare</p>
-                  <p className='card-text'>your emissions,</p>
-                  <p className='card-text'>performance to</p>
-                  <p className='card-text'>understand the</p>
-                  <p className='card-text'>effect of your</p>
-                  <p className='card-text'>Sustainability...</p>
-                  <br />
-                  {/* 帶擴充 */}
-                  <a href="#" className="btn  card-btn">
-                  <i className="fa-solid fa-angles-right"></i>
-                  LEARN MORE</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="card">
-                <img src={Certified} className="card-img-top img" alt="..." />
-                <div className="card-body">
-                <h5 className='card-titleh5'>Step 3</h5>
-                  <h3 className='card-titleh3'>Validate</h3>
-                  <br />
-                  <p className='card-text'>Quickly calculae</p>
-                  <p className='card-text'>tour corporate</p>
-                  <p className='card-text'>emissions,easily</p>
-                  <p className='card-text'>upload or plug in</p>
-                  <p className='card-text'>data from all tour</p>
-                  <p className='card-text'>emmision sources</p>
-                  <br />
-                  {/* 帶擴充 */}
-                  <a href="#" className="btn  card-btn">
-                  <i className="fa-solid fa-angles-right"></i>
-                  LEARN MORE</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="card">
-                <img src={ISO} className="card-img-top img" alt="..." />
-                <div className="card-body">
-                <h5 className='card-titleh5'>Step 4</h5>
-                  <h3 className='card-titleh3'>Collect</h3>
-                  <br />
-                  <p className='card-text'>Quickly calculae</p>
-                  <p className='card-text'>tour corporate</p>
-                  <p className='card-text'>emissions,easily</p>
-                  <p className='card-text'>upload or plug in</p>
-                  <p className='card-text'>data from all tour</p>
-                  <p className='card-text'>emmision sources</p>
-                  <br />
-                  {/* 帶擴充 */}
-                  <a href="#" className="btn  card-btn">
-                  <i className="fa-solid fa-angles-right"></i>
-                  LEARN MORE</a>
-                </div>
-              </div>
-            </div>
+              <Step1/>
+              <Step2/>
+              <Step3/>
+              <Step4/>
           </div>
         </div>
       </div>

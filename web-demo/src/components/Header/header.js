@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
+import Nav from './nav/nav'
+import Headers from './header/header'
+import Iso from './iso/iso'
 import './header.css'
-import DIF from './img/DIF-WM-LOGO.png'
-import Goals from './img/goals.png'
-import ISO from './img/ISO.png'
-import Penguin from './img/penguin.png'
 export default class Header extends Component {
   render() {
     return (
+<<<<<<< HEAD
 <div>
   <div className="container">
     {/* <!--nav--> */}
@@ -153,18 +153,17 @@ export default class Header extends Component {
                   CONTACT US 
                 </button>
               </div>
+=======
+      <div>
+        <div className="container">
+          <Nav />
+          <div className="container">
+            <Headers />
+            <Iso />
+>>>>>>> b0d833ea9c8e97835a55df4be70a11dd0c821eb5
           </div>
+        </div>
       </div>
-      <div className="col-lg-1  align-self-end">
-        <img src={Penguin} className="img-fluid img3"/>
-      </div>
-      <div className="col-lg-4 ">
-          <img src={ISO} className="img-fluid"/>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
     )
   }
 }
