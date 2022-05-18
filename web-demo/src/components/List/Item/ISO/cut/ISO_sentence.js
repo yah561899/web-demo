@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Sentence = () => {
+const ISO_sentence = () => {
     return (
         <div>
             {/* 大文字 */}
@@ -13,4 +13,4 @@ const Sentence = () => {
     )
 }
 
-export default Sentence
+export default ISO_sentence

@@ -3,7 +3,7 @@ import ISO14046 from './images/14046.png'
 import ISO14064 from './images/14064.png'
 import ISO14067 from './images/14067.png'
 
-const ISOcut = () => {
+const ISO_ISOcut = () => {
     return (
         <div className='col-lg-6'>
             <div className='row'>
@@ -51,4 +51,4 @@ const ISOcut = () => {
     )
 }
 
-export default ISOcut
+export default ISO_ISOcut

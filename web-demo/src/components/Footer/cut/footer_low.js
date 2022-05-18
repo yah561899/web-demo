@@ -1,6 +1,6 @@
 import React from 'react'
 // 底層
-const Low = () => {
+const Footer_low = () => {
     return (
         <div
             className="text-center p-3"
@@ -10,4 +10,4 @@ const Low = () => {
     )
 }
 
-export default Low
+export default Footer_low

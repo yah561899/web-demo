@@ -1,6 +1,6 @@
 import React from 'react'
 //中層
-const Mid = () => {
+const Footer_mid = () => {
     return (
         <section className="">
             <div className="container text-center text-md-start mt-5">
@@ -73,4 +73,4 @@ const Mid = () => {
     )
 }
 
-export default Mid
+export default Footer_mid

@@ -2,7 +2,7 @@ import React from 'react'
 import chart from './images/chart-up.png'
 import penguin from './images/penguin.png'
 
-const Picture = () => {
+const ISO_picture = () => {
     return (
         <div className="row">
             <div className="col-4 col align-self-end">
@@ -19,4 +19,4 @@ const Picture = () => {
     )
 }
 
-export default Picture
+export default ISO_picture

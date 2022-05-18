@@ -1,16 +1,17 @@
 import React from 'react'
-import Low from './cut/low'
-import Mid from './cut/mid'
-import Up from './cut/up'
+import Footer_up from './cut/footer_up'
+import Footer_mid from './cut/footer_mid'
+import Footer_low from './cut/footer_low'
+
 // footer
 const Footer = () => {
   return (
     <footer
       className="text-center text-lg-start text-white"
       style={{ backgroundColor: "#192e66" }}>
-      <Up />
-      <Mid />
-      <Low />
+      <Footer_up/>
+      <Footer_mid/>
+      <Footer_low/>
     </footer>
   )
 }

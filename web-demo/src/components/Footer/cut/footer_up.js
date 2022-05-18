@@ -1,7 +1,7 @@
 import React from 'react'
 import DIF from './images/DIF-WM-LOGO.png'
 // 上層
-const Up = () => {
+const Footer_up = () => {
     return (
         <section
             className="d-flex justify-content-between p-4"
@@ -41,4 +41,4 @@ const Up = () => {
     )
 }
 
-export default Up
+export default Footer_up

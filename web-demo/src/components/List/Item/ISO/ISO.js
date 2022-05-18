@@ -1,18 +1,18 @@
 import React from 'react'
 import './ISO.css'
-import Sentence from './cut/sentence'
-import Picture from './cut/picture'
-import ISOcut from './cut/ISOcut'
+import ISO_sentence from './cut/ISO_sentence'
+import ISO_picture from './cut/ISO_picture'
+import ISO_ISOcut from './cut/ISO_ISOcut'
 // ISO
 const ISO = () => {
   return (
     <div className="container">
       <div className='row'>
         <div className='col-lg-6'>
-        <Sentence/>
-        <Picture/>
+        <ISO_sentence/>
+        <ISO_picture/>
         </div>
-        <ISOcut/>
+        <ISO_ISOcut/>
       </div>
     </div>
   )
