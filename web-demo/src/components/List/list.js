@@ -8,13 +8,13 @@ const List = () => {
  
 
     <div>
-      <hr/>
+      <br />
       <Step/>
-      <hr/>
+      <br />
       <ISO/>
       <hr/>
       <Archibus/>
-      <hr/>
+      <br />
     </div>
 
   )

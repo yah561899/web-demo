@@ -7,7 +7,8 @@ import img4 from './img/penguin.png'
 export default class Header extends Component {
   render() {
     return (
-      <div className="container">
+<div>
+  <div className="container">
     {/* <!--nav--> */}
     <div className="row bg-light border py-2">
       <div className="col-lg-4">
@@ -74,12 +75,13 @@ export default class Header extends Component {
       </div>
     </div>
     {/* <!--header--> */}
+  <div className="container">
     <div className="row  py-5 align-items-end">
       <div className="col-lg-4">
         <img src={img1} className="img-fluid "/>
       </div>
       <div className="col-lg-2 align-self-start">
-        <img src={img2} className=" img"/>
+        <img src={img2} className="img"/>
       </div>
       <div className="col-lg-5 offset-lg-1">
         <ul className="nav justify-content-between ">
@@ -131,16 +133,13 @@ export default class Header extends Component {
           <p><h1 className="h11 text">ISO<small className="ps-2">SUSTAINABILITY</small></h1></p>
           <p><h2 className='h22 '>COMPLIANCE,REPORTING & CERTIIFICATION</h2></p>
           <p><h3 className='h33 '>SOLUTIONS FOR SMEs</h3></p>
-          <div className="row mt-3  align-items-end">
-              <div className="col-lg-6">
-                  <p className='header-p'>Get tailor-made solutions to manage</p>
-                  <p className='header-p'>tour carbon footprint impact to start</p>
-                  <p className='header-p'>meering sustainability standards NOW!</p>
+          <div className="row mt-3">
+              <div className="col-lg-7">
+                  <p className='header-p pt-5'>Get tailor-made solutions to manage</p>
+                  <p className='header-p pt-0'>tour carbon footprint impact to start</p>
+                  <p className='header-p pt-0'>meering sustainability standards NOW!</p>
               </div>
-              <div className="col-lg-1">
-                <div className="vr"></div>
-              </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 pt-5">
                 <button type="button" className="btn btn-light mb-3 btn1">
                   <i className="fa-solid fa-angles-right"></i>
                   LEARN MORE 
@@ -153,7 +152,7 @@ export default class Header extends Component {
               </div>
           </div>
       </div>
-      <div className="col-lg-1 align-self-end">
+      <div className="col-lg-1  align-self-end">
         <img src={img4} className="img-fluid img3"/>
       </div>
       <div className="col-lg-4 ">
@@ -161,6 +160,8 @@ export default class Header extends Component {
       </div>
     </div>
   </div>
+</div>
+</div>
     )
   }
 }

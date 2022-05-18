@@ -3,5 +3,19 @@ img{
 }
 .p1{
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
+    font-weight: bolder;
+    font-size: 45px;
+    line-height: 30px;
+    color: #434a8e;
+}
+.Arch{
+    padding-top: 100px;
+}
+.bus{
+    height: 150px;
+    margin-top: 50px;
+}
+.com{
+    height: 500px;
 }

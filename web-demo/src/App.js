@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className='container'>
+      <div>
       <List />
       </div>
       <Footer />
