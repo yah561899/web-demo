@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './step.css'
-import img1 from './img/ISO.png'
-import img2 from './img/audit.png'
-import img3 from './img/certified.png'
-import img4 from './img/folder.png'
+import ISO from './img/ISO.png'
+import Audit from './img/audit.png'
+import Certified from './img/certified.png'
+import Folder from './img/folder.png'
 export default class Step extends Component {
   render() {
     return (
@@ -21,7 +21,7 @@ export default class Step extends Component {
           <div className="row py-5">
             <div className="col-lg-3 ">
               <div className="card">
-                <img src={img4} className="img" alt="..." />
+                <img src={Folder} className="img" alt="..." />
                 <div className="card-body">
                   <h5 className='card-titleh5'>Step 1</h5>
                   <h3 className='card-titleh3'>Collect</h3>
@@ -33,6 +33,7 @@ export default class Step extends Component {
                   <p className='card-text'>data from all tour</p>
                   <p className='card-text'>emmision sources</p>
                   <br />
+                  {/* 帶擴充 */}
                   <a href="#" className="btn  card-btn">
                   <i className="fa-solid fa-angles-right"></i>
                   LEARN MORE</a>
@@ -41,7 +42,7 @@ export default class Step extends Component {
             </div>
             <div className="col-lg-3">
               <div className="card">
-                <img src={img2} className="card-img-top img" alt="..." />
+                <img src={Audit} className="card-img-top img" alt="..." />
                 <div className="card-body">
                   <h5 className='card-titleh5'>Step 2</h5>
                   <h3 className='card-titleh3'>Analyze</h3>
@@ -53,6 +54,7 @@ export default class Step extends Component {
                   <p className='card-text'>effect of your</p>
                   <p className='card-text'>Sustainability...</p>
                   <br />
+                  {/* 帶擴充 */}
                   <a href="#" className="btn  card-btn">
                   <i className="fa-solid fa-angles-right"></i>
                   LEARN MORE</a>
@@ -61,7 +63,7 @@ export default class Step extends Component {
             </div>
             <div className="col-lg-3">
               <div className="card">
-                <img src={img3} className="card-img-top img" alt="..." />
+                <img src={Certified} className="card-img-top img" alt="..." />
                 <div className="card-body">
                 <h5 className='card-titleh5'>Step 3</h5>
                   <h3 className='card-titleh3'>Validate</h3>
@@ -73,6 +75,7 @@ export default class Step extends Component {
                   <p className='card-text'>data from all tour</p>
                   <p className='card-text'>emmision sources</p>
                   <br />
+                  {/* 帶擴充 */}
                   <a href="#" className="btn  card-btn">
                   <i className="fa-solid fa-angles-right"></i>
                   LEARN MORE</a>
@@ -81,7 +84,7 @@ export default class Step extends Component {
             </div>
             <div className="col-lg-3">
               <div className="card">
-                <img src={img1} className="card-img-top img" alt="..." />
+                <img src={ISO} className="card-img-top img" alt="..." />
                 <div className="card-body">
                 <h5 className='card-titleh5'>Step 4</h5>
                   <h3 className='card-titleh3'>Collect</h3>
@@ -93,6 +96,7 @@ export default class Step extends Component {
                   <p className='card-text'>data from all tour</p>
                   <p className='card-text'>emmision sources</p>
                   <br />
+                  {/* 帶擴充 */}
                   <a href="#" className="btn  card-btn">
                   <i className="fa-solid fa-angles-right"></i>
                   LEARN MORE</a>
