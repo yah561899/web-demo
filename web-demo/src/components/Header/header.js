@@ -43,7 +43,7 @@ export default class Header extends Component {
         </ul>
       </div>
       <div className="col-lg-8">
-        {/* 帶擴充 */}
+        {/* 帶擴充 */} 
         <ul className="nav justify-content-end">
           <li className="nav-item">
             <a className="nav-link" href="#"><span className="text">News & Events.</span></a>
