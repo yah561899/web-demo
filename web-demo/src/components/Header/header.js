@@ -78,7 +78,7 @@ export default class Header extends Component {
       <div className="col-lg-4">
         <img src={img1} className="img-fluid "/>
       </div>
-      <div className="col-lg-2 pe-5">
+      <div className="col-lg-2 align-self-start">
         <img src={img2} className=" img"/>
       </div>
       <div className="col-lg-5 offset-lg-1">
@@ -128,14 +128,14 @@ export default class Header extends Component {
 
     <div className="row pt-5">
       <div className="col-lg-7">
-          <p><h1 className="text">ISO<small className="ps-2">SUSTAINABILITY</small></h1></p>
-          <p><h2>COMPLIANCE,REPORTING & CERTIIFICATION</h2></p>
-          <p><h3>SOLUTIONS FOR SMEs</h3></p>
+          <p><h1 className="h11 text">ISO<small className="ps-2">SUSTAINABILITY</small></h1></p>
+          <p><h2 className='h22 '>COMPLIANCE,REPORTING & CERTIIFICATION</h2></p>
+          <p><h3 className='h33 '>SOLUTIONS FOR SMEs</h3></p>
           <div className="row mt-3  align-items-end">
               <div className="col-lg-6">
-                  <p>Get tailor-made solutions to manage</p>
-                  <p>tour carbon footprint impact to start</p>
-                  <p>meering sustainability standards NOW!</p>
+                  <p className='header-p'>Get tailor-made solutions to manage</p>
+                  <p className='header-p'>tour carbon footprint impact to start</p>
+                  <p className='header-p'>meering sustainability standards NOW!</p>
               </div>
               <div className="col-lg-1">
                 <div className="vr"></div>
