@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './header.css'
-import img1 from './img/DIF-WM-LOGO.png'
-import img2 from './img/goals.png'
-import img3 from './img/ISO.png'
-import img4 from './img/penguin.png'
+import DIF from './img/DIF-WM-LOGO.png'
+import Goals from './img/goals.png'
+import ISO from './img/ISO.png'
+import Penguin from './img/penguin.png'
 export default class Header extends Component {
   render() {
     return (
@@ -14,6 +14,7 @@ export default class Header extends Component {
       <div className="col-lg-4">
         <ul className="nav">
           <li className="nav-item">
+            {/* 帶擴充 */}
             <a className="nav-link" href="#">
               <span className="icon">
                 <i className="fa-brands fa-facebook-square"></i>
@@ -42,6 +43,7 @@ export default class Header extends Component {
         </ul>
       </div>
       <div className="col-lg-8">
+        {/* 帶擴充 */}
         <ul className="nav justify-content-end">
           <li className="nav-item">
             <a className="nav-link" href="#"><span className="text">News & Events.</span></a>
@@ -78,10 +80,11 @@ export default class Header extends Component {
   <div className="container">
     <div className="row  py-5 align-items-end">
       <div className="col-lg-4">
-        <img src={img1} className="img-fluid "/>
+        {/* 更換img名稱 */}
+        <img src={DIF} className="img-fluid "/>
       </div>
       <div className="col-lg-2 align-self-start">
-        <img src={img2} className="img"/>
+        <img src={Goals} className="img"/>
       </div>
       <div className="col-lg-5 offset-lg-1">
         <ul className="nav justify-content-between ">
@@ -127,7 +130,7 @@ export default class Header extends Component {
         </ul>
       </div>
     </div>
-
+    {/* ISO */}
     <div className="row pt-5">
       <div className="col-lg-7">
           <h1 className="h11 text">ISO<small className="ps-2">SUSTAINABILITY</small></h1>
@@ -153,10 +156,10 @@ export default class Header extends Component {
           </div>
       </div>
       <div className="col-lg-1  align-self-end">
-        <img src={img4} className="img-fluid img3"/>
+        <img src={Penguin} className="img-fluid img3"/>
       </div>
       <div className="col-lg-4 ">
-          <img src={img3} className="img-fluid"/>
+          <img src={ISO} className="img-fluid"/>
       </div>
     </div>
   </div>
