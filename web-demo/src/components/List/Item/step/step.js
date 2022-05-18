@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './step.css'
-import Step1 from './Step1/Step1'
-import Step2 from './Step2/Step2'
-import Step3 from './Step3/Step3'
-import Step4 from './Step4/Step4'
+import Step_step1 from './RoadmapStep/step_step1'
+import Step_step2 from './RoadmapStep/step_step2'
+import Step_step3 from './RoadmapStep/step_step3'
+import Step_step4 from './RoadmapStep/step_step4'
 
 export default class Step extends Component {
   render() {
@@ -20,10 +20,10 @@ export default class Step extends Component {
             </div>
           </div>
           <div className="row py-5">
-              <Step1/>
-              <Step2/>
-              <Step3/>
-              <Step4/>
+              <Step_step1/>
+              <Step_step2/>
+              <Step_step3/>
+              <Step_step4/>
           </div>
         </div>
       </div>
@@ -31,3 +31,5 @@ export default class Step extends Component {
     )
   }
 }
+
+

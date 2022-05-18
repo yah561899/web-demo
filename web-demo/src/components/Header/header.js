@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Nav from './nav/nav'
-import Headers from './header/header'
+import Title from './Title/Title'
 import Iso from './iso/iso'
 import './header.css'
 export default class Header extends Component {
@@ -8,9 +8,9 @@ export default class Header extends Component {
     return (
       <div>
         <div className="container">
-          <Nav />
+          <Nav/>
           <div className="container">
-            <Headers />
+            <Title/>
             <Iso />
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Audit from '../img/audit.png'
 
-export default class Step2 extends Component {
+export default class Step_step2 extends Component {
   render() {
     return (
         <div className="col-lg-3">
