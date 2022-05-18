@@ -16,6 +16,6 @@ const ISO = () => {
       </div>
     </div>
   )
-}
+} 
 
 export default ISO
