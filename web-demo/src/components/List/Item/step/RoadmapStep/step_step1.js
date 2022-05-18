@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import Certified from '../img/certified.png'
+import Folder from '../img/folder.png'
 
-export default class Step3 extends Component {
+export default class Step_step1 extends Component {
   render() {
     return (
-        <div className="col-lg-3">
+        <div className="col-lg-3 ">
         <div className="card">
-          <img src={Certified} className="card-img-top img" alt="..." />
+          <img src={Folder} className="img" alt="..." />
           <div className="card-body">
-          <h5 className='card-titleh5'>Step 3</h5>
-            <h3 className='card-titleh3'>Validate</h3>
+            <h5 className='card-titleh5'>Step 1</h5>
+            <h3 className='card-titleh3'>Collect</h3>
             <br />
             <p className='card-text'>Quickly calculae</p>
             <p className='card-text'>tour corporate</p>

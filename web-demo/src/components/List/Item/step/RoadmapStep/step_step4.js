@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ISO from '../img/ISO.png'
-export default class Step4 extends Component {
+export default class Step_step4 extends Component {
   render() {
     return (
         <div className="col-lg-3">
