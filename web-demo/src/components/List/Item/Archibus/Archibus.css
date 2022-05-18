@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 img{
     height: 500px;
 }
 .p1{
     display: flex;
     justify-content:center;
-=======
-img {
-    height: 500px;
-}
-
-p {
-    text-align: left;
->>>>>>> d6ecd9db094590cd41b523671b4f17f5c146fee5
 }

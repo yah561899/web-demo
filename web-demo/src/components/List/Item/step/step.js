@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-<<<<<<< HEAD
 import './step.css'
 import img1 from './img/ISO.png'
 import img2 from './img/audit.png'
@@ -102,13 +101,6 @@ export default class Step extends Component {
           </div>
         </div>
       </div>
-=======
-
-export default class Step extends Component {
-  render() {
-    return (
-      <div>Step</div>
->>>>>>> d6ecd9db094590cd41b523671b4f17f5c146fee5
     )
   }
 }

@@ -4,20 +4,6 @@ import penguin from './images/penguin.png'
 import ISO14046 from './images/14046.png'
 import ISO14064 from './images/14064.png'
 import ISO14067 from './images/14067.png'
-<<<<<<< HEAD
-
-const ISO = () => {
-  return (
-    <div className='container'>
-      <div className='row'>
-        <div className='col-lg-6'>
-          <p>ISO CERTIFICATION IS GOOD BUSINESS</p>
-          <p>...</p>
-          <div className="row">
-            <div className="col-4 col align-self-end">
-              <div className=''>
-                <img src={penguin} style={{ height: "200px" }} />
-=======
 import './ISO.css'
 
 const ISO = () => {
@@ -33,7 +19,6 @@ const ISO = () => {
             <div className="col-4 col align-self-end">
               <div className=''>
                 <img src={penguin} style={{ height: "200px",marginBottom:"25px"}} />
->>>>>>> d6ecd9db094590cd41b523671b4f17f5c146fee5
               </div>
             </div>
             <div className="col-4 col align-self-end">
@@ -42,18 +27,6 @@ const ISO = () => {
           </div>
         </div>
         <div className='col-lg-6'>
-<<<<<<< HEAD
-          <div className='col'>
-            <img src={ISO14064} alt="" style={{ height: "200px" }} />
-            <p>ISO 14064</p>
-            <hr />
-          </div>
-          <div className='col'>
-            <img src={ISO14046} alt="" style={{ height: "200px" }} />
-          </div>
-          <div className='col'>
-            <img src={ISO14067} alt="" style={{ height: "200px" }} />
-=======
           <div className='row'>
             <div className='col-lg-6'>
               <img src={ISO14064} alt="" style={{ height: "200px" }} />
@@ -91,7 +64,6 @@ const ISO = () => {
               <p><strong>OF PRODUCTS QUANTIFICATION</strong><br /></p>
               <p><a href="">Learn More <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
             </div>
->>>>>>> d6ecd9db094590cd41b523671b4f17f5c146fee5
           </div>
         </div>
       </div>
