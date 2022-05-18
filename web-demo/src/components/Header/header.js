@@ -62,7 +62,7 @@ export default class Header extends Component {
             <div className="dropdown">
               <button className="btn btn-light text" type="button" data-bs-toggle="dropdown">
                 English
-                <i className="fa-solid fa-square-caret-down"></i>
+                <i className="fa-solid fa-square-caret-down ps-2"></i>
               </button>
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a className="dropdown-item text" href="#">Chinese</a></li>
@@ -74,11 +74,11 @@ export default class Header extends Component {
       </div>
     </div>
     {/* <!--header--> */}
-    <div className="row al py-5 align-items-end">
+    <div className="row  py-5 align-items-end">
       <div className="col-lg-4">
         <img src={img1} className="img-fluid "/>
       </div>
-      <div className="col-lg-2 align-self-start">
+      <div className="col-lg-2 pe-5">
         <img src={img2} className=" img"/>
       </div>
       <div className="col-lg-5 offset-lg-1">
@@ -87,7 +87,7 @@ export default class Header extends Component {
             <div className="dropdown">
               <button className="btn text" type="button" data-bs-toggle="dropdown">
                 Solutions
-                <i className="fa-solid fa-square-caret-down"></i>
+                <i className="fa-solid fa-square-caret-down ps-2"></i>
               </button>
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a className="dropdown-item text" href="#">Chinese</a></li>
@@ -99,7 +99,7 @@ export default class Header extends Component {
             <div className="dropdown">
               <button className="btn text" type="button" data-bs-toggle="dropdown">
                 Resources
-                <i className="fa-solid fa-square-caret-down"></i>
+                <i className="fa-solid fa-square-caret-down ps-2"></i>
               </button>
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a className="dropdown-item text" href="#">Chinese</a></li>
@@ -111,7 +111,7 @@ export default class Header extends Component {
             <div className="dropdown">
               <button className="btn text" type="button" data-bs-toggle="dropdown">
                 Case Studies
-                <i className="fa-solid fa-square-caret-down"></i>
+                <i className="fa-solid fa-square-caret-down ps-2"></i>
               </button>
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a className="dropdown-item text" href="#">Chinese</a></li>
@@ -128,12 +128,10 @@ export default class Header extends Component {
 
     <div className="row pt-5">
       <div className="col-lg-7">
-        <p>
-          <h1 className="text">ISO<small className="ps-2">SUSTAINABILITY</small></h1>
-          <h2>COMPLIANCE,REPORTING & CERTIIFICATION</h2>
-          <h3>SOLUTIONS FOR SMEs</h3>
-        </p>
-          <div className="row mt-3 align-items-end">
+          <p><h1 className="text">ISO<small className="ps-2">SUSTAINABILITY</small></h1></p>
+          <p><h2>COMPLIANCE,REPORTING & CERTIIFICATION</h2></p>
+          <p><h3>SOLUTIONS FOR SMEs</h3></p>
+          <div className="row mt-3  align-items-end">
               <div className="col-lg-6">
                   <p>Get tailor-made solutions to manage</p>
                   <p>tour carbon footprint impact to start</p>

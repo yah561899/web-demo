@@ -25,10 +25,10 @@ h1{
 h2{
     color: rgb(21, 115, 223);
     font-family: 'Alatsi', sans-serif;
+    line-height: 0%;
 }
 h3{
     color: rgb(21, 115, 223);
-    font-weight: 1000;
 }
 p{
     line-height: 5px;
